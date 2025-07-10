@@ -1,0 +1,86 @@
+/* Layout wrapper for sidebar + content */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Dashboard content section */
+  .eco-dashboard {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem;
+    background-color: #f7fbea;
+    color: #1b3a2b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Main title */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1b3a2b;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Subtitle */
+  .subtitle {
+    font-size: 1rem;
+    color: #4b6043;
+    margin-bottom: 2rem;
+  }
+  
+  /* Stats grid layout */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Stat cards */
+  .stat-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e6da;
+  }
+  
+  .label {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  .change {
+    font-size: 0.8rem;
+    color: #5c735a;
+  }
+  
+  /* Chart card styling */
+  .chart-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e6da;
+  }
+  
+  .chart-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .chart-subtitle {
+    font-size: 0.9rem;
+    color: #4b6043;
+    margin-bottom: 1rem;
+  }
+  
